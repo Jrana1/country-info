@@ -12,12 +12,13 @@
 </head>
 
 <body>
-    <section class="container">
+    <section id="section" class="container">
 
         <div class="input-group mb-3 w-75 mx-auto mt-5">
-            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+            <input id="input-field" type="text" class="form-control"
+                placeholder="Write the Capital of a Country you want to know about.." aria-label="Recipient's username"
                 aria-describedby="button-addon2">
-            <button class="btn btn-outline-primary" type="button" id="button-addon2">Button</button>
+            <button onclick="getApi()" class="btn btn-outline-primary" type="button" id="button-addon2">Apply</button>
         </div>
     </section>
     <script src="index.js"></script>
